@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Runtime.xcodeproj">
+      location = "self:&#x4fa7;&#x6ed1;&#x52a8;&#x753b;SlideBar.xcodeproj">
    </FileRef>
 </Workspace>

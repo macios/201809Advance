@@ -1,18 +1,12 @@
-//
-//  RuntimeTests.m
-//  RuntimeTests
-//
-//  Created by ac-hu on 2018/9/4.
-//  Copyright © 2018年 ac-hu. All rights reserved.
-//
+//___FILEHEADER___
 
 #import <XCTest/XCTest.h>
 
-@interface RuntimeTests : XCTestCase
+@interface ___FILEBASENAMEASIDENTIFIER___ : XCTestCase
 
 @end
 
-@implementation RuntimeTests
+@implementation ___FILEBASENAMEASIDENTIFIER___
 
 - (void)setUp {
     [super setUp];
