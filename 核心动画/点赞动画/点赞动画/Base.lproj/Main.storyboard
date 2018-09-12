@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GIC-AA-JmD">
+                                <rect key="frame" x="177" y="333.5" width="20" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="2yh-oc-aHJ"/>
+                                    <constraint firstAttribute="height" constant="20" id="Xpb-Ll-FHZ"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRe-pK-GUr">
+                                <rect key="frame" x="177" y="333.5" width="20" height="20"/>
+                                <state key="normal" title="Button" image="default.png"/>
+                                <connections>
+                                    <action selector="likeBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7rs-YI-dqe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tRe-pK-GUr" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Q4u-ZX-Hk6"/>
+                            <constraint firstItem="GIC-AA-JmD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="WWe-PE-WHx"/>
+                            <constraint firstItem="tRe-pK-GUr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c1p-cB-A39"/>
+                            <constraint firstItem="tRe-pK-GUr" firstAttribute="height" secondItem="GIC-AA-JmD" secondAttribute="height" id="fih-V6-D7q"/>
+                            <constraint firstItem="tRe-pK-GUr" firstAttribute="width" secondItem="GIC-AA-JmD" secondAttribute="width" id="hMh-mA-1DY"/>
+                            <constraint firstItem="GIC-AA-JmD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="m4l-BI-01h"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="likeBgView" destination="GIC-AA-JmD" id="O6P-yb-8XR"/>
+                        <outlet property="likeBtn" destination="tRe-pK-GUr" id="r9h-8H-Wl1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="default.png" width="18" height="17"/>
+    </resources>
+</document>
