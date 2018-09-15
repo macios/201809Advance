@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE8C373E214D4A44006699FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C373D214D4A44006699FF /* AppDelegate.m */; };
+		FE8C3741214D4A44006699FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C3740214D4A44006699FF /* ViewController.m */; };
+		FE8C3744214D4A44006699FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8C3742214D4A44006699FF /* Main.storyboard */; };
+		FE8C3746214D4A46006699FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8C3745214D4A46006699FF /* Assets.xcassets */; };
+		FE8C3749214D4A46006699FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8C3747214D4A46006699FF /* LaunchScreen.storyboard */; };
+		FE8C374C214D4A46006699FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C374B214D4A46006699FF /* main.m */; };
+		FE8C3756214D4A46006699FF /* _D____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C3755214D4A46006699FF /* _D____Tests.m */; };
+		FE8C3761214D4A46006699FF /* _D____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C3760214D4A46006699FF /* _D____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE8C3752214D4A46006699FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8C3731214D4A43006699FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8C3738214D4A43006699FF;
+			remoteInfo = "2D物理引擎";
+		};
+		FE8C375D214D4A46006699FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8C3731214D4A43006699FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8C3738214D4A43006699FF;
+			remoteInfo = "2D物理引擎";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE8C3739214D4A43006699FF /* 2D物理引擎.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2D物理引擎.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8C373C214D4A44006699FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE8C373D214D4A44006699FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE8C373F214D4A44006699FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE8C3740214D4A44006699FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE8C3743214D4A44006699FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE8C3745214D4A46006699FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE8C3748214D4A46006699FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE8C374A214D4A46006699FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8C374B214D4A46006699FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE8C3751214D4A46006699FF /* 2D物理引擎Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2D物理引擎Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8C3755214D4A46006699FF /* _D____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_D____Tests.m"; sourceTree = "<group>"; };
+		FE8C3757214D4A46006699FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8C375C214D4A46006699FF /* 2D物理引擎UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2D物理引擎UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8C3760214D4A46006699FF /* _D____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_D____UITests.m"; sourceTree = "<group>"; };
+		FE8C3762214D4A46006699FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8C3736214D4A43006699FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8C374E214D4A46006699FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8C3759214D4A46006699FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE8C3730214D4A43006699FF = {
+			isa = PBXGroup;
+			children = (
+				FE8C373B214D4A43006699FF /* 2D物理引擎 */,
+				FE8C3754214D4A46006699FF /* 2D物理引擎Tests */,
+				FE8C375F214D4A46006699FF /* 2D物理引擎UITests */,
+				FE8C373A214D4A43006699FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE8C373A214D4A43006699FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C3739214D4A43006699FF /* 2D物理引擎.app */,
+				FE8C3751214D4A46006699FF /* 2D物理引擎Tests.xctest */,
+				FE8C375C214D4A46006699FF /* 2D物理引擎UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8C373B214D4A43006699FF /* 2D物理引擎 */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C373C214D4A44006699FF /* AppDelegate.h */,
+				FE8C373D214D4A44006699FF /* AppDelegate.m */,
+				FE8C373F214D4A44006699FF /* ViewController.h */,
+				FE8C3740214D4A44006699FF /* ViewController.m */,
+				FE8C3742214D4A44006699FF /* Main.storyboard */,
+				FE8C3745214D4A46006699FF /* Assets.xcassets */,
+				FE8C3747214D4A46006699FF /* LaunchScreen.storyboard */,
+				FE8C374A214D4A46006699FF /* Info.plist */,
+				FE8C374B214D4A46006699FF /* main.m */,
+			);
+			path = "2D物理引擎";
+			sourceTree = "<group>";
+		};
+		FE8C3754214D4A46006699FF /* 2D物理引擎Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C3755214D4A46006699FF /* _D____Tests.m */,
+				FE8C3757214D4A46006699FF /* Info.plist */,
+			);
+			path = "2D物理引擎Tests";
+			sourceTree = "<group>";
+		};
+		FE8C375F214D4A46006699FF /* 2D物理引擎UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C3760214D4A46006699FF /* _D____UITests.m */,
+				FE8C3762214D4A46006699FF /* Info.plist */,
+			);
+			path = "2D物理引擎UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE8C3738214D4A43006699FF /* 2D物理引擎 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8C3765214D4A46006699FF /* Build configuration list for PBXNativeTarget "2D物理引擎" */;
+			buildPhases = (
+				FE8C3735214D4A43006699FF /* Sources */,
+				FE8C3736214D4A43006699FF /* Frameworks */,
+				FE8C3737214D4A43006699FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2D物理引擎";
+			productName = "2D物理引擎";
+			productReference = FE8C3739214D4A43006699FF /* 2D物理引擎.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE8C3750214D4A46006699FF /* 2D物理引擎Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8C3768214D4A46006699FF /* Build configuration list for PBXNativeTarget "2D物理引擎Tests" */;
+			buildPhases = (
+				FE8C374D214D4A46006699FF /* Sources */,
+				FE8C374E214D4A46006699FF /* Frameworks */,
+				FE8C374F214D4A46006699FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8C3753214D4A46006699FF /* PBXTargetDependency */,
+			);
+			name = "2D物理引擎Tests";
+			productName = "2D物理引擎Tests";
+			productReference = FE8C3751214D4A46006699FF /* 2D物理引擎Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE8C375B214D4A46006699FF /* 2D物理引擎UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8C376B214D4A46006699FF /* Build configuration list for PBXNativeTarget "2D物理引擎UITests" */;
+			buildPhases = (
+				FE8C3758214D4A46006699FF /* Sources */,
+				FE8C3759214D4A46006699FF /* Frameworks */,
+				FE8C375A214D4A46006699FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8C375E214D4A46006699FF /* PBXTargetDependency */,
+			);
+			name = "2D物理引擎UITests";
+			productName = "2D物理引擎UITests";
+			productReference = FE8C375C214D4A46006699FF /* 2D物理引擎UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8C3731214D4A43006699FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ac-hu";
+				TargetAttributes = {
+					FE8C3738214D4A43006699FF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FE8C3750214D4A46006699FF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE8C3738214D4A43006699FF;
+					};
+					FE8C375B214D4A46006699FF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE8C3738214D4A43006699FF;
+					};
+				};
+			};
+			buildConfigurationList = FE8C3734214D4A43006699FF /* Build configuration list for PBXProject "2D物理引擎" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE8C3730214D4A43006699FF;
+			productRefGroup = FE8C373A214D4A43006699FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8C3738214D4A43006699FF /* 2D物理引擎 */,
+				FE8C3750214D4A46006699FF /* 2D物理引擎Tests */,
+				FE8C375B214D4A46006699FF /* 2D物理引擎UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8C3737214D4A43006699FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8C3749214D4A46006699FF /* LaunchScreen.storyboard in Resources */,
+				FE8C3746214D4A46006699FF /* Assets.xcassets in Resources */,
+				FE8C3744214D4A44006699FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8C374F214D4A46006699FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8C375A214D4A46006699FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8C3735214D4A43006699FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8C3741214D4A44006699FF /* ViewController.m in Sources */,
+				FE8C374C214D4A46006699FF /* main.m in Sources */,
+				FE8C373E214D4A44006699FF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8C374D214D4A46006699FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8C3756214D4A46006699FF /* _D____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8C3758214D4A46006699FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8C3761214D4A46006699FF /* _D____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE8C3753214D4A46006699FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8C3738214D4A43006699FF /* 2D物理引擎 */;
+			targetProxy = FE8C3752214D4A46006699FF /* PBXContainerItemProxy */;
+		};
+		FE8C375E214D4A46006699FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8C3738214D4A43006699FF /* 2D物理引擎 */;
+			targetProxy = FE8C375D214D4A46006699FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE8C3742214D4A44006699FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8C3743214D4A44006699FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE8C3747214D4A46006699FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8C3748214D4A46006699FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE8C3763214D4A46006699FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE8C3764214D4A46006699FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE8C3766214D4A46006699FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "2D物理引擎/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.-D----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE8C3767214D4A46006699FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "2D物理引擎/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.-D----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE8C3769214D4A46006699FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "2D物理引擎Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.-D----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2D物理引擎.app/2D物理引擎";
+			};
+			name = Debug;
+		};
+		FE8C376A214D4A46006699FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "2D物理引擎Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.-D----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2D物理引擎.app/2D物理引擎";
+			};
+			name = Release;
+		};
+		FE8C376C214D4A46006699FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "2D物理引擎UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.-D----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2D物理引擎";
+			};
+			name = Debug;
+		};
+		FE8C376D214D4A46006699FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "2D物理引擎UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.-D----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2D物理引擎";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8C3734214D4A43006699FF /* Build configuration list for PBXProject "2D物理引擎" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8C3763214D4A46006699FF /* Debug */,
+				FE8C3764214D4A46006699FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8C3765214D4A46006699FF /* Build configuration list for PBXNativeTarget "2D物理引擎" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8C3766214D4A46006699FF /* Debug */,
+				FE8C3767214D4A46006699FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8C3768214D4A46006699FF /* Build configuration list for PBXNativeTarget "2D物理引擎Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8C3769214D4A46006699FF /* Debug */,
+				FE8C376A214D4A46006699FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8C376B214D4A46006699FF /* Build configuration list for PBXNativeTarget "2D物理引擎UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8C376C214D4A46006699FF /* Debug */,
+				FE8C376D214D4A46006699FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8C3731214D4A43006699FF /* Project object */;
+}
