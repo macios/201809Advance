@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dVf-Hm-3b9">
+                                <rect key="frame" x="172.5" y="328.5" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.92637872695922852" green="0.31318631768226624" blue="0.58914631605148315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="R2R-e4-lnw"/>
+                                    <constraint firstAttribute="height" constant="30" id="WK4-Uj-Gbj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TpS-XK-yI9">
+                                <rect key="frame" x="172.5" y="328.5" width="30" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2B-aY-fvY">
+                                        <rect key="frame" x="7" y="6.5" width="17.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92637872695922852" green="0.31318631768226624" blue="0.58914631605148315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="GFk-y4-msZ"/>
+                                    <constraint firstItem="u2B-aY-fvY" firstAttribute="centerX" secondItem="TpS-XK-yI9" secondAttribute="centerX" id="HLN-N6-nbo"/>
+                                    <constraint firstItem="u2B-aY-fvY" firstAttribute="centerY" secondItem="TpS-XK-yI9" secondAttribute="centerY" id="akN-on-Veg"/>
+                                    <constraint firstAttribute="height" constant="30" id="sXc-3B-tLI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dVf-Hm-3b9" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="0Ih-GW-Gn1"/>
+                            <constraint firstItem="TpS-XK-yI9" firstAttribute="centerY" secondItem="dVf-Hm-3b9" secondAttribute="centerY" id="KKp-nb-ICk"/>
+                            <constraint firstItem="dVf-Hm-3b9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SBo-Ue-jzS"/>
+                            <constraint firstItem="TpS-XK-yI9" firstAttribute="centerX" secondItem="dVf-Hm-3b9" secondAttribute="centerX" id="dIB-4w-Kta"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bigView" destination="TpS-XK-yI9" id="ehb-pz-8bO"/>
+                        <outlet property="smallView" destination="dVf-Hm-3b9" id="O2I-HG-Rr6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
