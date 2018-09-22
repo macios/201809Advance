@@ -36,6 +36,8 @@ int main(int argc, const char * argv[]) {
         
 //        类方法也是这样调用
 //      [Person run] ==  objc_msgSend(objc_getClass("Person"), @selector(run));
+        
+//        msgSend如果消息接收者为空直接返回,然后走消息转发机制（找缓存）
     }
     return 0;
 }
