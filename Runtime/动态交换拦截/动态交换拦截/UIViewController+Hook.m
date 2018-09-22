@@ -15,7 +15,11 @@
     dispatch_once(&onceToken, ^{
         Method m1 = class_getInstanceMethod(self, @selector(viewWillAppear:));
         Method m2 = class_getInstanceMethod(self, @selector(hu_viewWillAppear:));
+//        //交换：两个方法都会执行
         method_exchangeImplementations(m1, m2);
+        
+//        //替换的类、方法、被替换的方法、被替换的类型
+//        class_replaceMethod(self, @selector(hu_viewWillAppear:), method_getImplementation(m1), method_getTypeEncoding(m1));
     });
 }
 
