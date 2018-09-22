@@ -12,7 +12,7 @@
 -(void)walk{
     NSLog(@"%s",__func__);
 }
--(void)run{
++(void)run{
     NSLog(@"%s",__func__);
 }
 @end

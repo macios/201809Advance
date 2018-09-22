@@ -7,74 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE58616B21564B390037B4B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58616A21564B390037B4B7 /* AppDelegate.m */; };
-		FE58616E21564B390037B4B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58616D21564B390037B4B7 /* ViewController.m */; };
-		FE58617121564B390037B4B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE58616F21564B390037B4B7 /* Main.storyboard */; };
-		FE58617321564B3D0037B4B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE58617221564B3D0037B4B7 /* Assets.xcassets */; };
-		FE58617621564B3D0037B4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE58617421564B3D0037B4B7 /* LaunchScreen.storyboard */; };
-		FE58617921564B3D0037B4B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58617821564B3D0037B4B7 /* main.m */; };
-		FE58618321564B3D0037B4B7 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58618221564B3D0037B4B7 /* ________Tests.m */; };
-		FE58618E21564B3D0037B4B7 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58618D21564B3D0037B4B7 /* ________UITests.m */; };
-		FE58619F21564B8E0037B4B7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58619B21564B8E0037B4B7 /* Person.m */; };
-		FE5861A021564B8E0037B4B7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58619C21564B8E0037B4B7 /* Dog.m */; };
+		FE5861C921564D5A0037B4B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5861C821564D5A0037B4B7 /* main.m */; };
+		FE5861D321564D890037B4B7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5861D121564D880037B4B7 /* Person.m */; };
+		FE5861D421564D890037B4B7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5861D221564D890037B4B7 /* Dog.m */; };
+		FE5861D821564FE30037B4B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5861D721564FE20037B4B7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FE58617F21564B3D0037B4B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE58615E21564B390037B4B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE58616521564B390037B4B7;
-			remoteInfo = "方法调用本质过程";
+/* Begin PBXCopyFilesBuildPhase section */
+		FE5861C321564D5A0037B4B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
-		FE58618A21564B3D0037B4B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FE58615E21564B390037B4B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE58616521564B390037B4B7;
-			remoteInfo = "方法调用本质过程";
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE58616621564B390037B4B7 /* 方法调用本质过程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "方法调用本质过程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE58616921564B390037B4B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FE58616A21564B390037B4B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE58616C21564B390037B4B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE58616D21564B390037B4B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FE58617021564B390037B4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE58617221564B3D0037B4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE58617521564B3D0037B4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FE58617721564B3D0037B4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE58617821564B3D0037B4B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE58617E21564B3D0037B4B7 /* 方法调用本质过程Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "方法调用本质过程Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE58618221564B3D0037B4B7 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
-		FE58618421564B3D0037B4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE58618921564B3D0037B4B7 /* 方法调用本质过程UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "方法调用本质过程UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE58618D21564B3D0037B4B7 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
-		FE58618F21564B3E0037B4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE58619B21564B8E0037B4B7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "../../Runtime原理/Runtime原理/Person.m"; sourceTree = "<group>"; };
-		FE58619C21564B8E0037B4B7 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = "../../Runtime原理/Runtime原理/Dog.m"; sourceTree = "<group>"; };
-		FE58619D21564B8E0037B4B7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "../../Runtime原理/Runtime原理/Person.h"; sourceTree = "<group>"; };
-		FE58619E21564B8E0037B4B7 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = "../../Runtime原理/Runtime原理/Dog.h"; sourceTree = "<group>"; };
+		FE5861C521564D5A0037B4B7 /* 方法调用本质过程 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "方法调用本质过程"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5861C821564D5A0037B4B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE5861CF21564D880037B4B7 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		FE5861D021564D880037B4B7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FE5861D121564D880037B4B7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FE5861D221564D890037B4B7 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		FE5861D721564FE20037B4B7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE58616321564B390037B4B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE58617B21564B3D0037B4B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE58618621564B3D0037B4B7 /* Frameworks */ = {
+		FE5861C221564D5A0037B4B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,74 +46,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE58615D21564B390037B4B7 = {
+		FE5861BC21564D5A0037B4B7 = {
 			isa = PBXGroup;
 			children = (
-				FE58616821564B390037B4B7 /* 方法调用本质过程 */,
-				FE58618121564B3D0037B4B7 /* 方法调用本质过程Tests */,
-				FE58618C21564B3D0037B4B7 /* 方法调用本质过程UITests */,
-				FE58616721564B390037B4B7 /* Products */,
+				FE5861C721564D5A0037B4B7 /* 方法调用本质过程 */,
+				FE5861C621564D5A0037B4B7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FE58616721564B390037B4B7 /* Products */ = {
+		FE5861C621564D5A0037B4B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE58616621564B390037B4B7 /* 方法调用本质过程.app */,
-				FE58617E21564B3D0037B4B7 /* 方法调用本质过程Tests.xctest */,
-				FE58618921564B3D0037B4B7 /* 方法调用本质过程UITests.xctest */,
+				FE5861C521564D5A0037B4B7 /* 方法调用本质过程 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE58616821564B390037B4B7 /* 方法调用本质过程 */ = {
+		FE5861C721564D5A0037B4B7 /* 方法调用本质过程 */ = {
 			isa = PBXGroup;
 			children = (
-				FE58619E21564B8E0037B4B7 /* Dog.h */,
-				FE58619C21564B8E0037B4B7 /* Dog.m */,
-				FE58619D21564B8E0037B4B7 /* Person.h */,
-				FE58619B21564B8E0037B4B7 /* Person.m */,
-				FE58616921564B390037B4B7 /* AppDelegate.h */,
-				FE58616A21564B390037B4B7 /* AppDelegate.m */,
-				FE58616C21564B390037B4B7 /* ViewController.h */,
-				FE58616D21564B390037B4B7 /* ViewController.m */,
-				FE58616F21564B390037B4B7 /* Main.storyboard */,
-				FE58617221564B3D0037B4B7 /* Assets.xcassets */,
-				FE58617421564B3D0037B4B7 /* LaunchScreen.storyboard */,
-				FE58617721564B3D0037B4B7 /* Info.plist */,
-				FE58617821564B3D0037B4B7 /* main.m */,
+				FE5861CF21564D880037B4B7 /* Dog.h */,
+				FE5861D221564D890037B4B7 /* Dog.m */,
+				FE5861D021564D880037B4B7 /* Person.h */,
+				FE5861D121564D880037B4B7 /* Person.m */,
+				FE5861C821564D5A0037B4B7 /* main.m */,
+				FE5861D721564FE20037B4B7 /* main.cpp */,
 			);
 			path = "方法调用本质过程";
-			sourceTree = "<group>";
-		};
-		FE58618121564B3D0037B4B7 /* 方法调用本质过程Tests */ = {
-			isa = PBXGroup;
-			children = (
-				FE58618221564B3D0037B4B7 /* ________Tests.m */,
-				FE58618421564B3D0037B4B7 /* Info.plist */,
-			);
-			path = "方法调用本质过程Tests";
-			sourceTree = "<group>";
-		};
-		FE58618C21564B3D0037B4B7 /* 方法调用本质过程UITests */ = {
-			isa = PBXGroup;
-			children = (
-				FE58618D21564B3D0037B4B7 /* ________UITests.m */,
-				FE58618F21564B3E0037B4B7 /* Info.plist */,
-			);
-			path = "方法调用本质过程UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE58616521564B390037B4B7 /* 方法调用本质过程 */ = {
+		FE5861C421564D5A0037B4B7 /* 方法调用本质过程 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE58619221564B3E0037B4B7 /* Build configuration list for PBXNativeTarget "方法调用本质过程" */;
+			buildConfigurationList = FE5861CC21564D5A0037B4B7 /* Build configuration list for PBXNativeTarget "方法调用本质过程" */;
 			buildPhases = (
-				FE58616221564B390037B4B7 /* Sources */,
-				FE58616321564B390037B4B7 /* Frameworks */,
-				FE58616421564B390037B4B7 /* Resources */,
+				FE5861C121564D5A0037B4B7 /* Sources */,
+				FE5861C221564D5A0037B4B7 /* Frameworks */,
+				FE5861C321564D5A0037B4B7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -159,179 +92,56 @@
 			);
 			name = "方法调用本质过程";
 			productName = "方法调用本质过程";
-			productReference = FE58616621564B390037B4B7 /* 方法调用本质过程.app */;
-			productType = "com.apple.product-type.application";
-		};
-		FE58617D21564B3D0037B4B7 /* 方法调用本质过程Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE58619521564B3E0037B4B7 /* Build configuration list for PBXNativeTarget "方法调用本质过程Tests" */;
-			buildPhases = (
-				FE58617A21564B3D0037B4B7 /* Sources */,
-				FE58617B21564B3D0037B4B7 /* Frameworks */,
-				FE58617C21564B3D0037B4B7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE58618021564B3D0037B4B7 /* PBXTargetDependency */,
-			);
-			name = "方法调用本质过程Tests";
-			productName = "方法调用本质过程Tests";
-			productReference = FE58617E21564B3D0037B4B7 /* 方法调用本质过程Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FE58618821564B3D0037B4B7 /* 方法调用本质过程UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE58619821564B3E0037B4B7 /* Build configuration list for PBXNativeTarget "方法调用本质过程UITests" */;
-			buildPhases = (
-				FE58618521564B3D0037B4B7 /* Sources */,
-				FE58618621564B3D0037B4B7 /* Frameworks */,
-				FE58618721564B3D0037B4B7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE58618B21564B3D0037B4B7 /* PBXTargetDependency */,
-			);
-			name = "方法调用本质过程UITests";
-			productName = "方法调用本质过程UITests";
-			productReference = FE58618921564B3D0037B4B7 /* 方法调用本质过程UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productReference = FE5861C521564D5A0037B4B7 /* 方法调用本质过程 */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE58615E21564B390037B4B7 /* Project object */ = {
+		FE5861BD21564D5A0037B4B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "ac-hu";
 				TargetAttributes = {
-					FE58616521564B390037B4B7 = {
+					FE5861C421564D5A0037B4B7 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					FE58617D21564B3D0037B4B7 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = FE58616521564B390037B4B7;
-					};
-					FE58618821564B3D0037B4B7 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = FE58616521564B390037B4B7;
 					};
 				};
 			};
-			buildConfigurationList = FE58616121564B390037B4B7 /* Build configuration list for PBXProject "方法调用本质过程" */;
+			buildConfigurationList = FE5861C021564D5A0037B4B7 /* Build configuration list for PBXProject "方法调用本质过程" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = FE58615D21564B390037B4B7;
-			productRefGroup = FE58616721564B390037B4B7 /* Products */;
+			mainGroup = FE5861BC21564D5A0037B4B7;
+			productRefGroup = FE5861C621564D5A0037B4B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE58616521564B390037B4B7 /* 方法调用本质过程 */,
-				FE58617D21564B3D0037B4B7 /* 方法调用本质过程Tests */,
-				FE58618821564B3D0037B4B7 /* 方法调用本质过程UITests */,
+				FE5861C421564D5A0037B4B7 /* 方法调用本质过程 */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		FE58616421564B390037B4B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE58617621564B3D0037B4B7 /* LaunchScreen.storyboard in Resources */,
-				FE58617321564B3D0037B4B7 /* Assets.xcassets in Resources */,
-				FE58617121564B390037B4B7 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE58617C21564B3D0037B4B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE58618721564B3D0037B4B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		FE58616221564B390037B4B7 /* Sources */ = {
+		FE5861C121564D5A0037B4B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE58616E21564B390037B4B7 /* ViewController.m in Sources */,
-				FE58617921564B3D0037B4B7 /* main.m in Sources */,
-				FE5861A021564B8E0037B4B7 /* Dog.m in Sources */,
-				FE58619F21564B8E0037B4B7 /* Person.m in Sources */,
-				FE58616B21564B390037B4B7 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE58617A21564B3D0037B4B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE58618321564B3D0037B4B7 /* ________Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE58618521564B3D0037B4B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE58618E21564B3D0037B4B7 /* ________UITests.m in Sources */,
+				FE5861D421564D890037B4B7 /* Dog.m in Sources */,
+				FE5861D321564D890037B4B7 /* Person.m in Sources */,
+				FE5861D821564FE30037B4B7 /* main.cpp in Sources */,
+				FE5861C921564D5A0037B4B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FE58618021564B3D0037B4B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE58616521564B390037B4B7 /* 方法调用本质过程 */;
-			targetProxy = FE58617F21564B3D0037B4B7 /* PBXContainerItemProxy */;
-		};
-		FE58618B21564B3D0037B4B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE58616521564B390037B4B7 /* 方法调用本质过程 */;
-			targetProxy = FE58618A21564B3D0037B4B7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FE58616F21564B390037B4B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE58617021564B390037B4B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FE58617421564B3D0037B4B7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE58617521564B3D0037B4B7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		FE58619021564B3E0037B4B7 /* Debug */ = {
+		FE5861CA21564D5A0037B4B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,10 +173,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -382,14 +192,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		FE58619121564B3E0037B4B7 /* Release */ = {
+		FE5861CB21564D5A0037B4B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -421,11 +231,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -434,155 +244,50 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		FE58619321564B3E0037B4B7 /* Debug */ = {
+		FE5861CD21564D5A0037B4B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "方法调用本质过程/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FE58619421564B3E0037B4B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "方法调用本质过程/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.--------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FE58619621564B3E0037B4B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "方法调用本质过程Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.--------Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/方法调用本质过程.app/方法调用本质过程";
-			};
-			name = Debug;
-		};
-		FE58619721564B3E0037B4B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "方法调用本质过程Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.--------Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/方法调用本质过程.app/方法调用本质过程";
-			};
-			name = Release;
-		};
-		FE58619921564B3E0037B4B7 /* Debug */ = {
+		FE5861CE21564D5A0037B4B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "方法调用本质过程UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.--------UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "方法调用本质过程";
-			};
-			name = Debug;
-		};
-		FE58619A21564B3E0037B4B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "方法调用本质过程UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.--------UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "方法调用本质过程";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE58616121564B390037B4B7 /* Build configuration list for PBXProject "方法调用本质过程" */ = {
+		FE5861C021564D5A0037B4B7 /* Build configuration list for PBXProject "方法调用本质过程" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE58619021564B3E0037B4B7 /* Debug */,
-				FE58619121564B3E0037B4B7 /* Release */,
+				FE5861CA21564D5A0037B4B7 /* Debug */,
+				FE5861CB21564D5A0037B4B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE58619221564B3E0037B4B7 /* Build configuration list for PBXNativeTarget "方法调用本质过程" */ = {
+		FE5861CC21564D5A0037B4B7 /* Build configuration list for PBXNativeTarget "方法调用本质过程" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE58619321564B3E0037B4B7 /* Debug */,
-				FE58619421564B3E0037B4B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE58619521564B3E0037B4B7 /* Build configuration list for PBXNativeTarget "方法调用本质过程Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE58619621564B3E0037B4B7 /* Debug */,
-				FE58619721564B3E0037B4B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE58619821564B3E0037B4B7 /* Build configuration list for PBXNativeTarget "方法调用本质过程UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE58619921564B3E0037B4B7 /* Debug */,
-				FE58619A21564B3E0037B4B7 /* Release */,
+				FE5861CD21564D5A0037B4B7 /* Debug */,
+				FE5861CE21564D5A0037B4B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FE58615E21564B390037B4B7 /* Project object */;
+	rootObject = FE5861BD21564D5A0037B4B7 /* Project object */;
 }

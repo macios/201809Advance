@@ -10,5 +10,5 @@
 
 @interface Person : NSObject
 -(void)walk;
--(void)run;
++(void)run;
 @end
