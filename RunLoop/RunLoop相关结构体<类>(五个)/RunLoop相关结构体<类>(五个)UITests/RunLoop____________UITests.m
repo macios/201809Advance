@@ -1,12 +1,18 @@
-//___FILEHEADER___
+//
+//  RunLoop____________UITests.m
+//  RunLoop相关结构体<类>(五个)UITests
+//
+//  Created by ac-hu on 2018/9/23.
+//  Copyright © 2018年 ac-hu. All rights reserved.
+//
 
 #import <XCTest/XCTest.h>
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : XCTestCase
+@interface RunLoop____________UITests : XCTestCase
 
 @end
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
+@implementation RunLoop____________UITests
 
 - (void)setUp {
     [super setUp];
