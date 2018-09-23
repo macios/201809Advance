@@ -15,8 +15,6 @@
 		FE14AE9E215785E800A9E37E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14AE9D215785E800A9E37E /* main.m */; };
 		FE14AEA8215785E800A9E37E /* RunLoop__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14AEA7215785E800A9E37E /* RunLoop__Tests.m */; };
 		FE14AEB3215785E800A9E37E /* RunLoop__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14AEB2215785E800A9E37E /* RunLoop__UITests.m */; };
-		FE14AEC22157861300A9E37E /* CFRunLoop.c in Sources */ = {isa = PBXBuildFile; fileRef = FE14AEC02157861300A9E37E /* CFRunLoop.c */; };
-		FE14AEC42157884900A9E37E /* RunLoop内部执行过程.c in Sources */ = {isa = PBXBuildFile; fileRef = FE14AEC32157884900A9E37E /* RunLoop内部执行过程.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,9 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE14AEC22157861300A9E37E /* CFRunLoop.c in Sources */,
 				FE14AE93215785E600A9E37E /* ViewController.m in Sources */,
-				FE14AEC42157884900A9E37E /* RunLoop内部执行过程.c in Sources */,
 				FE14AE9E215785E800A9E37E /* main.m in Sources */,
 				FE14AE90215785E600A9E37E /* AppDelegate.m in Sources */,
 			);
