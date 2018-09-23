@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE14AE5221574A2900A9E37E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14AE5121574A2900A9E37E /* AppDelegate.m */; };
+		FE14AE5521574A2900A9E37E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14AE5421574A2900A9E37E /* ViewController.m */; };
+		FE14AE5821574A2900A9E37E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE14AE5621574A2900A9E37E /* Main.storyboard */; };
+		FE14AE5A21574A2A00A9E37E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE14AE5921574A2A00A9E37E /* Assets.xcassets */; };
+		FE14AE5D21574A2A00A9E37E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE14AE5B21574A2A00A9E37E /* LaunchScreen.storyboard */; };
+		FE14AE6021574A2A00A9E37E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14AE5F21574A2A00A9E37E /* main.m */; };
+		FE14AE6A21574A2B00A9E37E /* CFRunLoop_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14AE6921574A2B00A9E37E /* CFRunLoop_TimerTests.m */; };
+		FE14AE7521574A2B00A9E37E /* CFRunLoop_TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE14AE7421574A2B00A9E37E /* CFRunLoop_TimerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE14AE6621574A2B00A9E37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE14AE4521574A2800A9E37E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE14AE4C21574A2900A9E37E;
+			remoteInfo = "CFRunLoop-Timer";
+		};
+		FE14AE7121574A2B00A9E37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE14AE4521574A2800A9E37E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE14AE4C21574A2900A9E37E;
+			remoteInfo = "CFRunLoop-Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE14AE4D21574A2900A9E37E /* CFRunLoop-Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CFRunLoop-Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE14AE5021574A2900A9E37E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE14AE5121574A2900A9E37E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE14AE5321574A2900A9E37E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE14AE5421574A2900A9E37E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE14AE5721574A2900A9E37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE14AE5921574A2A00A9E37E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE14AE5C21574A2A00A9E37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE14AE5E21574A2A00A9E37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE14AE5F21574A2A00A9E37E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE14AE6521574A2B00A9E37E /* CFRunLoop-TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CFRunLoop-TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE14AE6921574A2B00A9E37E /* CFRunLoop_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFRunLoop_TimerTests.m; sourceTree = "<group>"; };
+		FE14AE6B21574A2B00A9E37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE14AE7021574A2B00A9E37E /* CFRunLoop-TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CFRunLoop-TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE14AE7421574A2B00A9E37E /* CFRunLoop_TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFRunLoop_TimerUITests.m; sourceTree = "<group>"; };
+		FE14AE7621574A2B00A9E37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE14AE4A21574A2900A9E37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE14AE6221574A2B00A9E37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE14AE6D21574A2B00A9E37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE14AE4421574A2800A9E37E = {
+			isa = PBXGroup;
+			children = (
+				FE14AE4F21574A2900A9E37E /* CFRunLoop-Timer */,
+				FE14AE6821574A2B00A9E37E /* CFRunLoop-TimerTests */,
+				FE14AE7321574A2B00A9E37E /* CFRunLoop-TimerUITests */,
+				FE14AE4E21574A2900A9E37E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE14AE4E21574A2900A9E37E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE14AE4D21574A2900A9E37E /* CFRunLoop-Timer.app */,
+				FE14AE6521574A2B00A9E37E /* CFRunLoop-TimerTests.xctest */,
+				FE14AE7021574A2B00A9E37E /* CFRunLoop-TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE14AE4F21574A2900A9E37E /* CFRunLoop-Timer */ = {
+			isa = PBXGroup;
+			children = (
+				FE14AE5021574A2900A9E37E /* AppDelegate.h */,
+				FE14AE5121574A2900A9E37E /* AppDelegate.m */,
+				FE14AE5321574A2900A9E37E /* ViewController.h */,
+				FE14AE5421574A2900A9E37E /* ViewController.m */,
+				FE14AE5621574A2900A9E37E /* Main.storyboard */,
+				FE14AE5921574A2A00A9E37E /* Assets.xcassets */,
+				FE14AE5B21574A2A00A9E37E /* LaunchScreen.storyboard */,
+				FE14AE5E21574A2A00A9E37E /* Info.plist */,
+				FE14AE5F21574A2A00A9E37E /* main.m */,
+			);
+			path = "CFRunLoop-Timer";
+			sourceTree = "<group>";
+		};
+		FE14AE6821574A2B00A9E37E /* CFRunLoop-TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE14AE6921574A2B00A9E37E /* CFRunLoop_TimerTests.m */,
+				FE14AE6B21574A2B00A9E37E /* Info.plist */,
+			);
+			path = "CFRunLoop-TimerTests";
+			sourceTree = "<group>";
+		};
+		FE14AE7321574A2B00A9E37E /* CFRunLoop-TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE14AE7421574A2B00A9E37E /* CFRunLoop_TimerUITests.m */,
+				FE14AE7621574A2B00A9E37E /* Info.plist */,
+			);
+			path = "CFRunLoop-TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE14AE4C21574A2900A9E37E /* CFRunLoop-Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE14AE7921574A2B00A9E37E /* Build configuration list for PBXNativeTarget "CFRunLoop-Timer" */;
+			buildPhases = (
+				FE14AE4921574A2900A9E37E /* Sources */,
+				FE14AE4A21574A2900A9E37E /* Frameworks */,
+				FE14AE4B21574A2900A9E37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CFRunLoop-Timer";
+			productName = "CFRunLoop-Timer";
+			productReference = FE14AE4D21574A2900A9E37E /* CFRunLoop-Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE14AE6421574A2B00A9E37E /* CFRunLoop-TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE14AE7C21574A2B00A9E37E /* Build configuration list for PBXNativeTarget "CFRunLoop-TimerTests" */;
+			buildPhases = (
+				FE14AE6121574A2B00A9E37E /* Sources */,
+				FE14AE6221574A2B00A9E37E /* Frameworks */,
+				FE14AE6321574A2B00A9E37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE14AE6721574A2B00A9E37E /* PBXTargetDependency */,
+			);
+			name = "CFRunLoop-TimerTests";
+			productName = "CFRunLoop-TimerTests";
+			productReference = FE14AE6521574A2B00A9E37E /* CFRunLoop-TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE14AE6F21574A2B00A9E37E /* CFRunLoop-TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE14AE7F21574A2B00A9E37E /* Build configuration list for PBXNativeTarget "CFRunLoop-TimerUITests" */;
+			buildPhases = (
+				FE14AE6C21574A2B00A9E37E /* Sources */,
+				FE14AE6D21574A2B00A9E37E /* Frameworks */,
+				FE14AE6E21574A2B00A9E37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE14AE7221574A2B00A9E37E /* PBXTargetDependency */,
+			);
+			name = "CFRunLoop-TimerUITests";
+			productName = "CFRunLoop-TimerUITests";
+			productReference = FE14AE7021574A2B00A9E37E /* CFRunLoop-TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE14AE4521574A2800A9E37E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ac-hu";
+				TargetAttributes = {
+					FE14AE4C21574A2900A9E37E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FE14AE6421574A2B00A9E37E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE14AE4C21574A2900A9E37E;
+					};
+					FE14AE6F21574A2B00A9E37E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE14AE4C21574A2900A9E37E;
+					};
+				};
+			};
+			buildConfigurationList = FE14AE4821574A2800A9E37E /* Build configuration list for PBXProject "CFRunLoop-Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE14AE4421574A2800A9E37E;
+			productRefGroup = FE14AE4E21574A2900A9E37E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE14AE4C21574A2900A9E37E /* CFRunLoop-Timer */,
+				FE14AE6421574A2B00A9E37E /* CFRunLoop-TimerTests */,
+				FE14AE6F21574A2B00A9E37E /* CFRunLoop-TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE14AE4B21574A2900A9E37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE14AE5D21574A2A00A9E37E /* LaunchScreen.storyboard in Resources */,
+				FE14AE5A21574A2A00A9E37E /* Assets.xcassets in Resources */,
+				FE14AE5821574A2900A9E37E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE14AE6321574A2B00A9E37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE14AE6E21574A2B00A9E37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE14AE4921574A2900A9E37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE14AE5521574A2900A9E37E /* ViewController.m in Sources */,
+				FE14AE6021574A2A00A9E37E /* main.m in Sources */,
+				FE14AE5221574A2900A9E37E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE14AE6121574A2B00A9E37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE14AE6A21574A2B00A9E37E /* CFRunLoop_TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE14AE6C21574A2B00A9E37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE14AE7521574A2B00A9E37E /* CFRunLoop_TimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE14AE6721574A2B00A9E37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE14AE4C21574A2900A9E37E /* CFRunLoop-Timer */;
+			targetProxy = FE14AE6621574A2B00A9E37E /* PBXContainerItemProxy */;
+		};
+		FE14AE7221574A2B00A9E37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE14AE4C21574A2900A9E37E /* CFRunLoop-Timer */;
+			targetProxy = FE14AE7121574A2B00A9E37E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE14AE5621574A2900A9E37E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE14AE5721574A2900A9E37E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE14AE5B21574A2A00A9E37E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE14AE5C21574A2A00A9E37E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE14AE7721574A2B00A9E37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE14AE7821574A2B00A9E37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE14AE7A21574A2B00A9E37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CFRunLoop-Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.CFRunLoop-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE14AE7B21574A2B00A9E37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CFRunLoop-Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.CFRunLoop-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE14AE7D21574A2B00A9E37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CFRunLoop-TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.CFRunLoop-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFRunLoop-Timer.app/CFRunLoop-Timer";
+			};
+			name = Debug;
+		};
+		FE14AE7E21574A2B00A9E37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CFRunLoop-TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.CFRunLoop-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFRunLoop-Timer.app/CFRunLoop-Timer";
+			};
+			name = Release;
+		};
+		FE14AE8021574A2B00A9E37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CFRunLoop-TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.CFRunLoop-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CFRunLoop-Timer";
+			};
+			name = Debug;
+		};
+		FE14AE8121574A2B00A9E37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CFRunLoop-TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.achu.-CoreAnmotion.CFRunLoop-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CFRunLoop-Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE14AE4821574A2800A9E37E /* Build configuration list for PBXProject "CFRunLoop-Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE14AE7721574A2B00A9E37E /* Debug */,
+				FE14AE7821574A2B00A9E37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE14AE7921574A2B00A9E37E /* Build configuration list for PBXNativeTarget "CFRunLoop-Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE14AE7A21574A2B00A9E37E /* Debug */,
+				FE14AE7B21574A2B00A9E37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE14AE7C21574A2B00A9E37E /* Build configuration list for PBXNativeTarget "CFRunLoop-TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE14AE7D21574A2B00A9E37E /* Debug */,
+				FE14AE7E21574A2B00A9E37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE14AE7F21574A2B00A9E37E /* Build configuration list for PBXNativeTarget "CFRunLoop-TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE14AE8021574A2B00A9E37E /* Debug */,
+				FE14AE8121574A2B00A9E37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE14AE4521574A2800A9E37E /* Project object */;
+}
