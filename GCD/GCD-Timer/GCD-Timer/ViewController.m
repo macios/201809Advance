@@ -18,7 +18,7 @@
 //
 //2.GCD-Timer准时原因：源不一样dispatch_source_t
 //
-//区别：一个是RunLoop的源，一个是dispatch源；GCD不需要加入mode下，不受模式印象；GCDTimer需要写全局延长生命周期，因为RunLoop会把它释放；如果GCDTimer写在主线程也会受RunLoop影响<看堆栈就可以了>，子线程不会;
+//区别：（1）.一个是RunLoop的源，一个是dispatch源；GCD不需要加入mode下，不受模式印象；(2).GCDTimer需要写全局延长生命周期，因为RunLoop会把它释放；(3).如果GCDTimer写在主线程也会受RunLoop影响<看堆栈就可以了>，子线程不会;(4).GCDTimer有开始暂停取消，nstimer只有开始和取消，没有暂停；
 
 - (void)viewDidLoad {
     [super viewDidLoad];
