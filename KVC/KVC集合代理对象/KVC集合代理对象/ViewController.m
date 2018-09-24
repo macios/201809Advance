@@ -26,6 +26,8 @@
     p.penArr = @[@"pen0",@"pen1"];
     NSSet *set = [p valueForKey:@"pens"];
     NSLog(@"Pens = %@",set);
+    
+    //执行过程可以看堆栈
 }
 
 
