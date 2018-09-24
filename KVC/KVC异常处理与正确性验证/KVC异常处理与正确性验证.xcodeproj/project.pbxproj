@@ -16,6 +16,7 @@
 		FE2D94B92158919F00327B78 /* KVC__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2D94B82158919F00327B78 /* KVC__________Tests.m */; };
 		FE2D94C42158919F00327B78 /* KVC__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2D94C32158919F00327B78 /* KVC__________UITests.m */; };
 		FE2D94D32158920100327B78 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2D94D22158920100327B78 /* Person.m */; };
+		FE2D94D6215895CC00327B78 /* CorrectObj.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2D94D5215895CC00327B78 /* CorrectObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		FE2D94C52158919F00327B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE2D94D12158920100327B78 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		FE2D94D22158920100327B78 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FE2D94D4215895CC00327B78 /* CorrectObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CorrectObj.h; sourceTree = "<group>"; };
+		FE2D94D5215895CC00327B78 /* CorrectObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorrectObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				FE2D94A52158919D00327B78 /* Main.storyboard */,
 				FE2D94D12158920100327B78 /* Person.h */,
 				FE2D94D22158920100327B78 /* Person.m */,
+				FE2D94D4215895CC00327B78 /* CorrectObj.h */,
+				FE2D94D5215895CC00327B78 /* CorrectObj.m */,
 				FE2D94A82158919E00327B78 /* Assets.xcassets */,
 				FE2D94AA2158919E00327B78 /* LaunchScreen.storyboard */,
 				FE2D94AD2158919E00327B78 /* Info.plist */,
@@ -271,6 +276,7 @@
 				FE2D94AF2158919E00327B78 /* main.m in Sources */,
 				FE2D94D32158920100327B78 /* Person.m in Sources */,
 				FE2D94A12158919D00327B78 /* AppDelegate.m in Sources */,
+				FE2D94D6215895CC00327B78 /* CorrectObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
