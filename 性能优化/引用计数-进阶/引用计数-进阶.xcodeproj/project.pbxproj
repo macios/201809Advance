@@ -15,6 +15,7 @@
 		FE6EF41E2163138800289155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF41D2163138800289155 /* main.m */; };
 		FE6EF4282163138800289155 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF4272163138800289155 /* _______Tests.m */; };
 		FE6EF4332163138800289155 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF4322163138800289155 /* _______UITests.m */; };
+		FE6EF442216321FE00289155 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6EF441216321FE00289155 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FE6EF42E2163138800289155 /* 引用计数-进阶UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "引用计数-进阶UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6EF4322163138800289155 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		FE6EF4342163138800289155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6EF440216321FE00289155 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FE6EF441216321FE00289155 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				FE6EF4192163138800289155 /* LaunchScreen.storyboard */,
 				FE6EF41C2163138800289155 /* Info.plist */,
 				FE6EF41D2163138800289155 /* main.m */,
+				FE6EF440216321FE00289155 /* Person.h */,
+				FE6EF441216321FE00289155 /* Person.m */,
 			);
 			path = "引用计数-进阶";
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				FE6EF4132163138500289155 /* ViewController.m in Sources */,
 				FE6EF41E2163138800289155 /* main.m in Sources */,
+				FE6EF442216321FE00289155 /* Person.m in Sources */,
 				FE6EF4102163138500289155 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
